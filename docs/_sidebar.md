@@ -2,5 +2,6 @@
 * [Présentation du projet](README.md)
 * [Organisation](organisation.md)
 * [Github](Github.md)
+* [Technologies](Technologies.md)
 * [Cours](cours.md)
 * [React cheatsheet](React.md)
