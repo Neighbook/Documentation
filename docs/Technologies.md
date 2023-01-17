@@ -1,6 +1,6 @@
 # Technologies utilisées
 
-Frontend:
+## Frontend
 
 - **Langage :** Typescript
 - **Frameworks :** ReactTS
@@ -18,7 +18,7 @@ Frontend:
     </a>
 </div>
 
-Backend :
+## Backend
 
 - **Langage :** Typescript
 - **Framework :** NodeJS
@@ -36,10 +36,11 @@ Backend :
     </a>
 </div>
 
-Infrastructure:
+## Infrastructure
 
 - **Hébergeur cloud :** Azure
 - **Scripting Infrastructure :** Terraform
+- **Base de données** : PostgreSQL
 
 <div style="display:flex;flex-direction:row;">
     <a href="https://azure.microsoft.com/fr-fr/">
@@ -48,9 +49,12 @@ Infrastructure:
     <a href="https://www.terraform.io/">
       <img src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/541/formation-terraform.png" title="Terraform" alt="Terraform" height="40"/>&nbsp;
     </a>
+    <a href="https://www.postgresql.org/">
+      <img src="https://www.postgresql.org/media/img/about/press/elephant.png" title="PostgreSQL" alt="PostgreSQL" height="40"/>&nbsp;
+    </a>
 </div>
 
-UX/UI :
+## UX/UI
 
 - **Outil de maquetage :** Figma
 
