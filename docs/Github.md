@@ -102,6 +102,12 @@ Tout ce que je viens d'expliquer s'appelle un workflow voici un schéma du workf
 
 ![Workflow](./_media/GithubWorkflow.png)
 
+TODO
+
+![Explication de git](./_media/git-workflow.png)
+
+---
+
 ***Commit signé*** : Pour des raisons de temps les commits signé ne seront pas obligatoire. Néanmoins, je vous invite si
 vous le souhaitez de signer vos commits. **L'intérêt ?** Cela permet de certifier que c'est bien vous qui effectuez le
 commit. Imaginer que pour une raison x ou y vous laissez votre poste de travail allumé et que vous partez. Une personne
