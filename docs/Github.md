@@ -11,11 +11,11 @@ Github pour le projet. Il s'adresse autant aux débutants, qu'aux experts. Vous 
 
 ## Qu'est-ce que Github ? Comment s'en servir ?
 
-D'abord il faut savoir ce qu'est **Git**. Git est un SCM pour 'Source Control Manager' ou gestionnaire de source code en
+D'abord il faut savoir ce qu'est **Git**. Git est un SCM pour 'Source Control Manager' ou gestionnaire de code source en
 français. C'est un outil permettant de stocker le code source d'un ou plusieurs projets, de travailler de manière
 collaborative et de manière simultanée. Git n'est pas le seul SCM il en existe plein d'autre tels que Subversion, Helix
-Core, etc. on a parlé de Git, mais qu'est-ce que **Github ?** C'est tout simplement une platform en ligne basée sur Git.
-Il existe d'autre platforms tels que Gitlab mais la plus connue.
+Core, etc. On a parlé de Git, mais qu'est-ce que **Github ?** C'est tout simplement une plateforme en ligne basée sur Git.
+Il existe d'autre plateformes tels que GitLab.
 
 À cet effet, une <a href="https://github.com/Neighbook" target="_blank">organisation Github</a> a été
 créée pour le projet tutoré. Une organisation est tout simplement une structure morale (entreprise, école, groupe, etc.)
@@ -28,7 +28,7 @@ participer, contactez l'équipe infrastructure'(<a href="mailto:kilian.goetz@yah
 ## Équipes et projets
 
 À l'image de la précédente <a href="https://utbm-fisa-tutoredproject.github.io/Documentation/#/organisation">section</a>
-le github possède **4 équipes** et une **5<sup>ème</sup>** qui est une équipe globale. Chacune des équipes possède son
+le Github possède **4 équipes** et une **5<sup>ème</sup>** qui est une équipe globale. Chacune des équipes possède son
 propre projet, qui détiennent des "vues" qui sont soit des kanbans, soit des tableaux.
 
 ***Qu'est-ce qu'un Kanban ?*** Un kanban est un tableau graphique composé d'un nombre n de colonnes représentant chacun
