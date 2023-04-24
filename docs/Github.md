@@ -68,7 +68,7 @@ visualiser de façon efficace un grand nombre d'idées et d'identifier plus faci
 Ici, nous ne verrons que les commandes.  
 
 La première commande est `git clone`, elle s'utilise comme suit : `git clone <repo>`. Elle permet de récupérer localement un dépôt GitHub.  
-Une fois le code récupéré, on peut vérifier sont état avec la commande `git status`.
+Une fois le code récupéré, on peut vérifier son état avec la commande `git status`.
 Ci-dessous, un résultat possible. On y voit entre autre la branche sur laquelle on se trouve et les fichiers modifiés.
 
 ```
