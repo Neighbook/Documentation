@@ -62,6 +62,46 @@ visualiser de façon efficace un grand nombre d'idées et d'identifier plus faci
   <source src="./_media/GithubProjects.webm" type="video/webm">
 </video>
 
+## Utilisation de `git`
+
+`git` est un logiciel en ligne de commande. Certains éditeurs tels que VSCode ou les IDEs JetBrains ajoutent une interface.
+Ici, nous ne verrons que les commandes.  
+
+La première commande est `git clone`, elle s'utilise comme suit : `git clone <repo>`. Elle permet de récupérer localement un dépôt GitHub.  
+Une fois le code récupéré, on peut vérifier sont état avec la commande `git status`.
+Ci-dessous, un résultat possible. On y voit entre autre la branche sur laquelle on se trouve et les fichiers modifiés.
+
+```
+On branch feat/documentation-git
+Your branch is up to date with 'origin/feat/documentation-git'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   docs/Github.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+Dans l'état précédent, on peut annuler les modifications d'un fichier avec la commande `git checkout <fichier>...`,
+ou `git checkout .` pour annuler toutes les modifications.  
+Au contraire, on peut valider ses modifications. Cela se fait en deux étapes:
+
+- `git add <fichier>...` pour un fichier ou `git add .` pour toutes les modifications.
+- `git commit`
+
+Cela ouvrira un éditeur dans lequel écrire votre message de commit. C'est un message descriptif des changements.  
+Les modifications sont à présent sauvegardées sur votre machine, il faut encore les envoyer sur GitHub avec la commande `git push`.
+
+Si quelqu'un d'autre fait des modifications, vous pouvez les récupérer avec `git pull`.
+
+Enfin, vous pouvez créer un branche avec la commande `git branch <nom>`. Cette action peut aussi être réalisée via l'interface GitHub.  
+Dans tout les cas, vous pouvez changer votre branche active avec `git checkout <branch>`.
+
+Ci-dessous un schéma explicatif de l'utilisation de `git`.
+
+![Explication de git](./_media/git-workflow.png)
+
 ## Workflow et règles
 
 Dans l'organisation vous retrouverez 5 repositories :
@@ -89,22 +129,18 @@ branche source.
 commits sont strictement interdit. La branche principale contient les versions de production. Une seconde branche "
 developement" étant une branche créée à partir de la branche principale, celle-ci héberge la version en cours de
 travail. Des branches de sprint ou de fonctionnalité créée à partir de la branche développement, elles hébergent les
-différents commits liés au développement d'une fonction. ET il y a les branches de Hotfix créer à partir de la branche
+différents commits liés au développement d'une fonction. Et il y a les branches de Hotfix créées à partir de la branche
 principale, celles-ci permettent de traiter un bug remonter par le client rapidement.
 
 Pour merge une branche liée à un sprint ou une fonctionnalité une "pull request" doit être émise pour une relecture du
 code par une personne. Le relecteur pourra soit valider ou demander des changements. Si elle est validée la branche peut
-être merge. Pour merge la branche développement, cela est plus compliqué, il faut passer un commité de validation entre
+être merge. Pour merge la branche développement, cela est plus compliqué, il faut passer un comité de validation entre
 les différents référents de chaque équipe. Une fois merge les codes sources du backend et frontend sont déployés par
 l'équipe infrastructure.
 
 Tout ce que je viens d'expliquer s'appelle un workflow voici un schéma du workflow.
 
 ![Workflow](./_media/GithubWorkflow.png)
-
-TODO
-
-![Explication de git](./_media/git-workflow.png)
 
 ---
 
