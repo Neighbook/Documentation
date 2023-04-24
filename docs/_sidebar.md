@@ -5,3 +5,4 @@
 * [Technologies](Technologies.md)
 * [Cours](cours.md)
 * [React cheatsheet](React.md)
+* [git cheatsheet](https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf)
